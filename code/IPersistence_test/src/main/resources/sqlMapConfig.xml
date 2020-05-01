@@ -1,0 +1,13 @@
+<configuration>
+
+    <dataSource>
+        <property name="driverClass" value="com.mysql.jdbc.Driver"></property>
+        <property name="jdbcUrl" value="jdbc:mysql://175.24.30.101:3306/lagouWork?characterEncoding=utf-8"></property>
+        <property name="username" value="root"></property>
+        <property name="password" value="112233"></property>
+    </dataSource>
+
+    <!-- 存放mapper.xml的全路径 -->
+    <mapper resource="UserMapper.xml"></mapper>
+
+</configuration>
